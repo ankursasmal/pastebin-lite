@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [content, setContent] = useState("");
@@ -30,6 +31,8 @@ export default function Home() {
         <h1 className="mb-4 text-2xl font-semibold text-black dark:text-white">
           Pastebin Lite
         </h1>
+
+       <Link href='/a'> <a>ankt</a></Link> 
 
         <textarea
           className="w-full rounded border border-zinc-300 p-3 text-black focus:outline-none focus:ring dark:border-zinc-700 dark:bg-black dark:text-white"
