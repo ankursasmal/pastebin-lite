@@ -42,6 +42,6 @@ export async function POST(req) {
 
   return NextResponse.json({
     id: paste._id,
-    url: `${process.env.BASE_URL}/p/${paste._id}`
+    url: `${process.env.BASE_URL}/api/pastes/${paste._id}`
   });
 }
