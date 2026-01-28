@@ -32,7 +32,7 @@ export default function Home() {
           Pastebin Lite
         </h1>
 
-       <Link href='/a'> <a>ankt</a></Link> 
+<Link href="/a">ankt</Link>
 
         <textarea
           className="w-full rounded border border-zinc-300 p-3 text-black focus:outline-none focus:ring dark:border-zinc-700 dark:bg-black dark:text-white"
